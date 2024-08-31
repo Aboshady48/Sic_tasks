@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile-picture.jpg" alt="Profile Picture">
+        <h1>John Doe</h1>
+        <h2>Software Developer</h2>
+        <p>Hello! I’m John, a passionate software developer with experience in web development and mobile app creation.</p>
+        
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java, C++</li>
+            <li>React, Node.js, Django</li>
+        </ul>
+        
+        <h3>Contact</h3>
+        <p>Email: johndoe@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>
