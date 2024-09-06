@@ -14,6 +14,7 @@ def chan(change,arr_of_coin):
         return 0
     #recrusive case
     max_val=arr_of_coin[0]
+    print(max_val)
     result_num=change%max_val
     num=change//max_val
     return num * chan(result_num,arr_of_coin[1:])
@@ -21,4 +22,4 @@ def chan(change,arr_of_coin):
 korean_coins=[500,100,50,10]
 money=float(input("Enter your change: "))
 answer=chan(money,korean_coins)
-print(answer)
+print(answer,"Thanks you see u next time :)")
