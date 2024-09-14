@@ -8,25 +8,19 @@ def part(ar, low, high):
             ar[index], ar[i] = ar[i], ar[index]
     ar[index + 1], ar[high] = ar[high], ar[index + 1]
     return index + 1
-        
 def quck_so(a, s=0, e=len(lst)-1):
     #base case with also the recrusive fun
     if s < e:
         p = part(a, s, e)
         quck_so(a, s, p - 1)
         quck_so(a, p + 1, e)
-
 quck_so(lst)
 print(lst)
-
-
 try:
     user = int(input("Enter the number you want to find: "))
 except ValueError:
     print("Invalid input. Please enter an integer.")
     user = None
-
-
 def search(a, l, k, r):
     # Base case
     if l > r:
